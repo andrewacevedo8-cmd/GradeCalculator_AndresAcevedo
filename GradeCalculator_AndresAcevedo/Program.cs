@@ -6,7 +6,7 @@
         {
 
             Console.WriteLine("=== Student Grade Calculator ===");
-            Console.Write("Enter your score (0-100): ");
+            Console.WriteLine("Enter your score (0-100): ");
             int score = int.Parse(Console.ReadLine());
 
             string grade;
