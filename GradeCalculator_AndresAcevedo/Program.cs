@@ -16,6 +16,11 @@
             else if (score >= 60) grade = "D";
             else grade = "F";
 
+            Console.Write("Enter number of assignments: "); 
+            int assignments = int.Parse(Console.ReadLine()); 
+            double average = (double)score / assignments; 
+            Console.WriteLine($"Average score: {average:F2}");
+
             Console.WriteLine($"Your grade is: {grade}");
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
